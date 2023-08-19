@@ -40,17 +40,17 @@ function setPosition(position) {
 function getWeather(latitude, longitude) {
 	let api = `https://api.openweathermap.org/data/2.5/weather?lat=${latitude}&lon=${longitude}&lang=${CONFIG.language}&appid=${key}`;
 	fetch(api)
-		.then(function(response) {
+		.then(function (response) {
 			let data = response.json();
 			return data;
 		})
-		.then(function(data) {
+		.then(function (data) {
 			let celsius = Math.floor(data.main.temp - KELVIN);
 			weather.temperature.value = tempUnit == 'C' ? celsius : (celsius * 9) / 5 + 32;
 			weather.description = data.weather[0].description;
 			weather.iconId = data.weather[0].icon;
 		})
-		.then(function() {
+		.then(function () {
 			displayWeather();
 		});
 }
