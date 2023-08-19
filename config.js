@@ -11,29 +11,29 @@ const CONFIG = {
 	// └─┘┴ ┴└─┘┴└─┘└─┘
 
 	// General
-	name: 'John',
+	name: 'Roberto',
 	imageBackground: false,
-	openInNewTab: true,
+	openInNewTab: false,
 	twelveHourFormat: false,
 
 	// Greetings
-	greetingMorning: 'Good morning!',
+	greetingMorning: 'Good morning,',
 	greetingAfternoon: 'Good afternoon,',
 	greetingEvening: 'Good evening,',
-	greetingNight: 'Go to Sleep!',
+	greetingNight: 'Go to sleep,',
 
 	// Layout
 	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
 
 	// Weather
-	weatherKey: 'InsertYourAPIKeyHere123456', // Write here your API Key
+	weatherKey: 'ddbc5ee6f93f8bc714b2269e934cce2a', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
 	language: 'en', // More languages in https://openweathermap.org/current#multi
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '37.775',
-	defaultLongitude: '-122.419',
+	defaultLatitude: '52.3950148',
+	defaultLongitude: '-1.9852005',
 
 	// Autochange
 	autoChangeTheme: true,
@@ -65,27 +65,27 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'Todoist',
-			icon: 'trello',
-			link: 'https://todoist.com',
+			name: 'GitLab',
+			icon: 'gitlab',
+			link: 'http://gitserver.bytesnap.local',
 		},
 		{
 			id: '4',
-			name: 'Calendar',
+			name: 'ByteSnap Internal',
 			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
+			link: 'https://sbs.bytesnap.com',
 		},
 		{
 			id: '5',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
+			name: 'HexConverter',
+			icon: 'hexagon',
+			link: 'https://conv.darkbyte.ru/',
 		},
 		{
 			id: '6',
-			name: 'Odysee',
-			icon: 'youtube',
-			link: 'https://odysee.com/',
+			name: 'About',
+			icon: 'flame',
+			link: 'about:about',
 		},
 	],
 
@@ -135,46 +135,46 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'leaf',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Home',
+					link: 'https://sbs.bytesnap.com',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Holiday',
+					link: 'https://rackstation:7033',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'VM',
+					link: '10.0.27.268',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Website',
+					link: 'https://www.bytesnap.co.uk',
 				},
 			],
 		},
 		{
-			icon: 'coffee',
+			icon: 'gitlab',
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'Numa',
+					link: 'http://gitserver.bytesnap.local',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'Egeria',
+					link: 'http://gitserver.bytesnap.local',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: 'exi',
+					link: 'http://gitserver.bytesnap.local',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'numapartners',
+					link: 'http://gitserver.bytesnap.local',
 				},
 			],
 		},
