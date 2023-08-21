@@ -61,19 +61,19 @@ const CONFIG = {
 			id: '2',
 			name: 'Mail',
 			icon: 'mail',
-			link: 'https://mail.protonmail.com/',
+			link: 'https://sbs.bytesnap.co.uk/owa/',
 		},
 		{
 			id: '3',
 			name: 'GitLab',
 			icon: 'gitlab',
-			link: 'http://gitserver.bytesnap.local',
+			link: 'https://gitserver.bytesnap.local',
 		},
 		{
 			id: '4',
-			name: 'ByteSnap Internal',
-			icon: 'calendar',
-			link: 'https://sbs.bytesnap.com',
+			name: 'ClickUp',
+			icon: 'chevrons-up-down',
+			link: 'https://app.clickup.com/20540326/v/l/6-900500299826-1',
 		},
 		{
 			id: '5',
@@ -83,9 +83,9 @@ const CONFIG = {
 		},
 		{
 			id: '6',
-			name: 'About',
-			icon: 'flame',
-			link: 'about:about',
+			name: 'WorkFlowMax',
+			icon: 'gantt-chart',
+			link: 'https://app.my.workflowmax.com/my/timesheet.aspx?filter=&ref=sidenav&tab=weekly',
 		},
 	],
 
@@ -140,15 +140,15 @@ const CONFIG = {
 			links: [
 				{
 					name: 'Home',
-					link: 'https://sbs.bytesnap.com',
+					link: 'https://sbs.bytesnap.co.uk/home/',
 				},
 				{
 					name: 'Holiday',
-					link: 'https://rackstation:7033',
+					link: 'http://rackstation:6788',
 				},
 				{
 					name: 'VM',
-					link: '10.0.27.268',
+					link: 'https://10.0.27.253/ui',
 				},
 				{
 					name: 'Website',
@@ -162,19 +162,19 @@ const CONFIG = {
 			links: [
 				{
 					name: 'Numa',
-					link: 'http://gitserver.bytesnap.local',
+					link: 'https://gitserver.bytesnap.local/versinetic/15118/numa',
 				},
 				{
 					name: 'Egeria',
-					link: 'http://gitserver.bytesnap.local',
+					link: 'https://gitserver.bytesnap.local/versinetic/15118/egeria',
 				},
 				{
 					name: 'exi',
-					link: 'http://gitserver.bytesnap.local',
+					link: 'https://gitserver.bytesnap.local/versinetic/15118/exi',
 				},
 				{
 					name: 'numapartners',
-					link: 'http://gitserver.bytesnap.local',
+					link: 'https://gitserver.bytesnap.local/versinetic/15118/numapartners',
 				},
 			],
 		},
